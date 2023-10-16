@@ -1,5 +1,6 @@
 package org.credirScore;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,6 +14,17 @@ public class CreditScoringSystem {
 
         int creditScore = calculateCreditScore(customer);
         System.out.println("Credit Score: " + creditScore);
+    }
+
+    class CreditInfo {
+        private double creditAmount;
+        private double interestRate;
+        private String purposeOfLoan;
+        private String creditCurrency;
+        private int creditPeriod;  // in months
+        private Date dateOfApproval;
+        private double monthlyPayment;
+        private double totalAmountOfRate;
     }
 
     public static int calculateCreditScore(Customer customer) {
