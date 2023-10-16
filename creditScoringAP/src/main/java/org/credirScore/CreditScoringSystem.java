@@ -57,6 +57,22 @@ public class CreditScoringSystem {
         public void setCreditCurrency(String creditCurrency) {
             this.creditCurrency = creditCurrency;
         }
+
+        public int getCreditPeriod() {
+            return creditPeriod;
+        }
+
+        public void setCreditPeriod(int creditPeriod) {
+            this.creditPeriod = creditPeriod;
+        }
+
+        public Date getDateOfApproval() {
+            return dateOfApproval;
+        }
+
+        public void setDateOfApproval(Date dateOfApproval) {
+            this.dateOfApproval = dateOfApproval;
+        }
     }
 
     public static int calculateCreditScore(Customer customer) {
