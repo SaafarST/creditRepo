@@ -73,6 +73,22 @@ public class CreditScoringSystem {
         public void setDateOfApproval(Date dateOfApproval) {
             this.dateOfApproval = dateOfApproval;
         }
+
+        public double getMonthlyPayment() {
+            return monthlyPayment;
+        }
+
+        public void setMonthlyPayment(double monthlyPayment) {
+            this.monthlyPayment = monthlyPayment;
+        }
+
+        public double getTotalAmountOfRate() {
+            return totalAmountOfRate;
+        }
+
+        public void setTotalAmountOfRate(double totalAmountOfRate) {
+            this.totalAmountOfRate = totalAmountOfRate;
+        }
     }
 
     public static int calculateCreditScore(Customer customer) {
