@@ -25,6 +25,38 @@ public class CreditScoringSystem {
         private Date dateOfApproval;
         private double monthlyPayment;
         private double totalAmountOfRate;
+
+        public double getCreditAmount() {
+            return creditAmount;
+        }
+
+        public void setCreditAmount(double creditAmount) {
+            this.creditAmount = creditAmount;
+        }
+
+        public double getInterestRate() {
+            return interestRate;
+        }
+
+        public void setInterestRate(double interestRate) {
+            this.interestRate = interestRate;
+        }
+
+        public String getPurposeOfLoan() {
+            return purposeOfLoan;
+        }
+
+        public void setPurposeOfLoan(String purposeOfLoan) {
+            this.purposeOfLoan = purposeOfLoan;
+        }
+
+        public String getCreditCurrency() {
+            return creditCurrency;
+        }
+
+        public void setCreditCurrency(String creditCurrency) {
+            this.creditCurrency = creditCurrency;
+        }
     }
 
     public static int calculateCreditScore(Customer customer) {
