@@ -118,6 +118,21 @@ public class CreditScoringSystem {
         return score;
     }
 }
+public enum Gender {
+    MALE, FEMALE, OTHER
+}
+
+public enum Education {
+    HIGH_SCHOOL, ASSOCIATES, BACHELORS, MASTERS, DOCTORATE, NONE
+}
+
+public enum MarriageStatus {
+    SINGLE, MARRIED, DIVORCED, WIDOWED
+}
+
+public enum Region {
+    NORTH, SOUTH, EAST, WEST, CENTRAL
+}
 
 class Customer {
     private int income;
