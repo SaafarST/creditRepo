@@ -119,12 +119,6 @@ public class CreditScoringSystem {
     }
 }
 
-
-
-public enum Region {
-    NORTH, SOUTH, EAST, WEST, CENTRAL
-}
-
 class Customer {
     private int income;
     private int employmentYears;
