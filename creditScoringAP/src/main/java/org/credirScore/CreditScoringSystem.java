@@ -121,7 +121,7 @@ public class CreditScoringSystem {
 //    }
 }
 
-public class Customer {
+ class Customer {
     private int age;
     private Gender gender;
     private int BKITScore;
