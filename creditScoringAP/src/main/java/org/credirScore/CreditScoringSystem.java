@@ -92,31 +92,31 @@ public class CreditScoringSystem {
     }
 
     public static int calculateCreditScore(Customer customer) {
-        int score = 0;
-
-        // Factor 1: Income
-        if (customer.getIncome() > 40000) {
-            score += 20;
-        } else {
-            score += 10;
-        }
-
-        // Factor 2: Employment Years
-        if (customer.getEmploymentYears() > 3) {
-            score += 20;
-        } else {
-            score += 10;
-        }
-
-        // Factor 3: Credit History Score
-        if (customer.getCreditHistoryScore() > 650) {
-            score += 60;
-        } else {
-            score += 30;
-        }
-
-        return score;
-    }
+//        int score = 0;
+//
+//        // Factor 1: Income
+//        if (customer.getIncome() > 40000) {
+//            score += 20;
+//        } else {
+//            score += 10;
+//        }
+//
+//        // Factor 2: Employment Years
+//        if (customer.getEmploymentYears() > 3) {
+//            score += 20;
+//        } else {
+//            score += 10;
+//        }
+//
+//        // Factor 3: Credit History Score
+//        if (customer.getCreditHistoryScore() > 650) {
+//            score += 60;
+//        } else {
+//            score += 30;
+//        }
+//
+//        return score;
+//    }
 }
 
 class Customer {
@@ -129,5 +129,68 @@ class Customer {
     private Region region;
     private Dependents dependents;
 
-   }
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
+    public int getBKITScore() {
+        return BKITScore;
+    }
+
+    public void setBKITScore(int BKITScore) {
+        this.BKITScore = BKITScore;
+    }
+
+    public int getCreditTakenPrior() {
+        return creditTakenPrior;
+    }
+
+    public void setCreditTakenPrior(int creditTakenPrior) {
+        this.creditTakenPrior = creditTakenPrior;
+    }
+
+    public Education getEducation() {
+        return education;
+    }
+
+    public void setEducation(Education education) {
+        this.education = education;
+    }
+
+    public MarriageStatus getMarriageStatus() {
+        return marriageStatus;
+    }
+
+    public void setMarriageStatus(MarriageStatus marriageStatus) {
+        this.marriageStatus = marriageStatus;
+    }
+
+    public Region getRegion() {
+        return region;
+    }
+
+    public void setRegion(Region region) {
+        this.region = region;
+    }
+
+    public Dependents getDependents() {
+        return dependents;
+    }
+
+    public void setDependents(Dependents dependents) {
+        this.dependents = dependents;
+    }
+}
 
