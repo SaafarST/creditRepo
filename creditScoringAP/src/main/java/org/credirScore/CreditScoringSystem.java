@@ -120,9 +120,6 @@ public class CreditScoringSystem {
 }
 
 
-public enum MarriageStatus {
-    SINGLE, MARRIED, DIVORCED, WIDOWED
-}
 
 public enum Region {
     NORTH, SOUTH, EAST, WEST, CENTRAL
