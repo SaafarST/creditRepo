@@ -120,33 +120,14 @@ public class CreditScoringSystem {
 }
 
 class Customer {
-    private int income;
-    private int employmentYears;
-    private int creditHistoryScore;
+    private int age;
+    private Gender gender;
+    private int BKITScore;
+    private int creditTakenPrior;
+    private Education education;
+    private MarriageStatus marriageStatus;
+    private Region region;
+    private Dependents dependents;
 
-    // Getters and Setters...
-    public int getIncome() {
-        return income;
-    }
-
-    public void setIncome(int income) {
-        this.income = income;
-    }
-
-    public int getEmploymentYears() {
-        return employmentYears;
-    }
-
-    public void setEmploymentYears(int employmentYears) {
-        this.employmentYears = employmentYears;
-    }
-
-    public int getCreditHistoryScore() {
-        return creditHistoryScore;
-    }
-
-    public void setCreditHistoryScore(int creditHistoryScore) {
-        this.creditHistoryScore = creditHistoryScore;
-    }
-}
+   }
 
