@@ -1,8 +1,6 @@
 package org.credirScore;
 
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 public class CreditScoringSystem {
 
