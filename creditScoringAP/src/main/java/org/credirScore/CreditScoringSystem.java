@@ -92,7 +92,7 @@ public class CreditScoringSystem {
             this.totalAmountOfRate = totalAmountOfRate;
         }
     }
-}
+
 //    public static int calculateCreditScore(Customer customer) {
 //        int score = 0;
 //
