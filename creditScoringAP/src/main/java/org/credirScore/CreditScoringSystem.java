@@ -18,7 +18,7 @@ public class CreditScoringSystem {
 //        System.out.println("Credit Score: " + creditScore);
     }
 
-    class CreditInfo {
+   class CreditInfo {
         private double creditAmount;
         private double interestRate;
         private String purposeOfLoan;
@@ -92,8 +92,8 @@ public class CreditScoringSystem {
             this.totalAmountOfRate = totalAmountOfRate;
         }
     }
-
-    public static int calculateCreditScore(Customer customer) {
+}
+//    public static int calculateCreditScore(Customer customer) {
 //        int score = 0;
 //
 //        // Factor 1: Income
@@ -119,7 +119,7 @@ public class CreditScoringSystem {
 //
 //        return score;
 //    }
-}
+
 
  class Customer {
     private int age;
