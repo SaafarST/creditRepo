@@ -1,5 +1,5 @@
 package org.credirScore;
 
-public enum PlaceOfWorlk {
+public enum PlaceOfWork {
     PRIVATE, GOVERNMENT, OWN_BUSINESS
 }

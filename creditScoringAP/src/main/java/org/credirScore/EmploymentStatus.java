@@ -1,5 +1,5 @@
 package org.credirScore;
 
-public enum EmployeeStatus {
+public enum EmploymentStatus {
     EMPLOYED, UNEMPLOYED, SELF_EMPLOYED
 }
