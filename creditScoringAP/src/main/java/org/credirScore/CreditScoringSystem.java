@@ -13,7 +13,6 @@ public class CreditScoringSystem {
 //        int creditScore = calculateCreditScore(customer);
 //        System.out.println("Credit Score: " + creditScore);
     }
-
 }
 
 
